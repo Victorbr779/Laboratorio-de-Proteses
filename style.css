@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaria: #004fb6;
+    --secundaria:  #1d7efc;
+    --azul-pastel: #78abff;
+    --gradient-escuro: linear-gradient(to bottom right, #001d44, #012657);
+    --gradient-claro: linear-gradient(to right, #004fb6, #1d7efc);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--gradient-escuro);
+    background-size: 200% 200%; /* Aumenta a escala do gradient */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem 10rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-bar a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: var(--secundaria);
+    font-size: 17px;
+
+}
+
+.logo-header img {
+    width: 200px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 8rem;
+}
+
+.escrita-home h2 {
+    width: 14rem;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 15px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    background: linear-gradient(to right, #0f6ae2, #64a7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.escrita-home h1 {
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    letter-spacing: 16px;
+    font-weight: 400;
+    font-size: 80px;
+    width: 40rem;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.escrita-home span {
+    background: linear-gradient(to right, var(--primaria), #3a8eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.escrita-home p {
+    width: 600px;
+    height: 100px;
+    padding: 0.02rem;
+    margin-bottom: 1rem;
+    letter-spacing: 4px;
+    line-height: 1.6rem;
+    opacity: 90%;
+    font-weight: 200;
+}
+
+.imagem-home img {
+    width: 300px;
+    border-radius: 5%;
+    border: 4px solid var(--primaria);
+}
+
+.experiencia-home {
+    display: flex;
+    justify-content: center;
+    background: var(--gradient-claro);
+    border: 2px solid var(--azul-pastel);
+    border-radius: 30px;
+    width: 70px;
+    height: 110px;
+    padding: 0px 20px;
+    margin-top: -90px;
+    margin-left: -30px;    
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-size: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.experiencia-home h3 {
+    font-weight: 300;
+}
+
+.experiencia-home span {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.botoes-home {
+    display: flex;
+    gap: 2rem;
+    padding-left: 30px;
+}
+
+.botoes-home button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 180px;
+    height: 45px;
+}
+
+.botao-saiba-mais {
+    background: var(--gradient-claro);
+    border: 0;
+    color: white;
+    border-radius: 50px;
+}
+
+.botao-saiba-mais:hover {
+    background: white;
+    color: var(--primaria);    
+}
+
+.botao-zap {
+    background: linear-gradient(to right, #001d44, #012657);
+    border: 5px solid var(--primaria);
+    border-radius: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botao-zap:hover {
+    background: white;
+}
