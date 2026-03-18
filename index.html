@@ -10,12 +10,14 @@
 </head>
 
 <body>
-
+    <div class="particulas"></div>
     <!-- HEADER -->
 
     <header class="header">
         <div class="logo-header">
-            <img src="./img/logo-dente-light.png" alt="logo">
+            <a href="#home">
+                <img src="./img/logo-dente-light.png" alt="logo">
+            </a>
         </div>
         <nav class="nav-bar">
             <ul>
@@ -28,46 +30,132 @@
         </nav>
     </header>
 
-    <!-- HOME -->
-    <section class="home">
+    <main>
+        <!-- HOME -->
+        <section class="home" id="home">
 
-        <div class="escrita-home">
-            <h2>BEM-VINDO</h2>
-            <h1>Laboratório <span>de Prótese</span></h1>
-            <p>Próteses dentárias de alta qualidade, feitas com cuidado, estética e durabilidade para entregar o melhor
-                resultado aos pacientes</p>
+            <div class="escrita-home">
+                <h2>BEM-VINDO</h2>
+                <h1>Laboratório <span>de Próteses</span></h1>
+                <p>Onde a estética encontra a perfeição. Desenvolvemos próteses que elevam o padrão do seu trabalho
+                    clínico.</p>
 
-            <div class="botoes-home">
-                <button class="botao-saiba-mais">Saiba Mais</button>
-                <button class="botao-zap"><span>Whatsapp</span></button>
+                <div class="botoes-home">
+                    <button class="botao-saiba-mais">Saiba Mais</button>
+                    <button class="botao-zap"><span>Whatsapp</span></button>
+                </div>
             </div>
 
-        </div>
-        <div class="imagem-home">
-            <img src="./img/dentista-home.png" alt="">
+            <a href="#sobre" class="scroll-indicator">
+                <span></span>
+            </a>
 
-            <div class="experiencia-home">
-                <h3><span>20</span> anos de Experiência</h3>
+        </section>
+
+        <!-- SOBRE NÓS -->
+        <section class="sobre" id="sobre">
+            <h1 class="titulo-sobre">Sobre a <span>Dente Light</span></h1>
+
+            <div class="conjunto-caixas-sobre">
+                <div class="caixa-sobre">
+
+                    <img src="./img/dentista-imagem.jpg" alt="dentista">
+
+
+                    <div class="texto-sobre">
+                        <p class="paragrafo-caixa"><span>SOLUÇOES PROTÉTICAS</span></p>
+                        <h2 class="subtitulo-caixa">Laboratório de <span>qualidade e confiança</span></h2>
+                        <p class="paragrafo-caixa">Somos um laboratório de próteses dentárias focado em precisão,
+                            estética e inovação. Trabalhamos lado a lado com dentistas para criar soluções
+                            personalizadas, com acabamento natural e alta qualidade.
+
+                            Utilizamos tecnologia avançada e materiais confiáveis para garantir agilidade e excelência
+                            em cada detalhe.
+
+                            Nosso compromisso é simples: entregar resultados que elevam a experiência do profissional e
+                            a satisfação do paciente.</p>
+
+                        <div class="informativo-sobre">
+                            <div class="informativo">
+                                <h2 class="informativo-caixa">+3mil</h2>
+                                <p class="paragrafo-informativo-caixa">Trabalhos Feitos</p>
+                            </div>
+
+                            <div class="informativo">
+                                <h2 class="informativo-caixa">100%</h2>
+                                <p class="paragrafo-informativo-caixa">De Qualidade</p>
+                            </div>
+
+                            <div class="informativo">
+                                <h2 class="informativo-caixa">+500</h2>
+                                <p class="paragrafo-informativo-caixa">Dentistas Satisfeitos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="sobre">
-        <h1 class="titulo">Sobre Nós</h1>
-        <div class="caixa-sobre">
-            <img src="" alt="">
+        <!-- PROJETOS -->
+        <section class="projetos" id="projetos">
+            <h2 class="subtitulo">Transformações Reais</h2>
+            <h1 class="titulo">Veja Nossos <span>Trabalhos</span></h1>
+            <p class="paragrafo-titulo">Descubra como nossas próteses podem transformar sua prática clínica</p>
 
-            <div class="texto-sobre">
-                <h2 class="subtitulo-caixa">Soluções em próteses dentárias com qualidade e confiança</h2>
-                <p class="paragrafo-caixa">Somos um laboratório de próteses dentárias dedicado a oferecer qualidade,
-                    precisão e confiança aos profissionais da odontologia. Trabalhamos com materiais modernos e técnicas
-                    atualizadas para produzir próteses funcionais e estéticas. Nosso compromisso é entregar soluções
-                    eficientes, contribuindo para a saúde bucal e a satisfação dos pacientes.</p>
+            <div class="colecao-projetos">
+
+                <div class="projeto">
+                    <img src="./img/protese-1.jpg" alt="protese 1">
+
+                    <div class="texto-projeto">
+                        <h2 class="titulo-projeto">Protocolo</h2>
+                        <p class="paragrafo-projeto">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="./img/protese-2.jpg" alt="protese 2">
+
+                    <div class="texto-projeto">
+                        <h2 class="titulo-projeto">Protocolo</h2>
+                        <p class="paragrafo-projeto">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="./img/protese-3.jpg" alt="protese 3">
+
+                    <div class="texto-projeto">
+                        <h2 class="titulo-projeto">Protocolo</h2>
+                        <p class="paragrafo-projeto">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!-- BENEFICIOS -->
+         <section class="beneficios">
+            <h2 class="subtitulo">Transformações Reais</h2>
+            <h1 class="titulo">Veja Nossos <span>Trabalhos</span></h1>
+            <p class="paragrafo-titulo">Descubra como nossas próteses podem transformar sua prática clínica</p>
 
+            <div class="beneficios-cards">
+
+                <div class="beneficio">
+                    <div class="icons">
+
+                    </div>
+
+                    <div class="texto-beneficio">
+                        <h2 class="titulo-beneficio">Protocolo</h2>
+                        <p class="paragrafo-beneficio">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+         </section>
+    </main>
 </body>
 
 </html>
