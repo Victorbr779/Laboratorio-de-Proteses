@@ -268,7 +268,7 @@ body {
 }
 
 .titulo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Playfair Display", serif;
     letter-spacing: 5px;
 }
@@ -414,7 +414,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1200px;
     gap: 3rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 .projeto {
@@ -443,4 +443,69 @@ body {
     backdrop-filter: blur(10px);
     padding: 1rem;
     margin-top: -7px;
+}
+
+/* BENEFICIOS */
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.beneficios-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 1200px;
+    gap: 3rem;
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+}
+
+.beneficio {
+    border-radius: 20px;
+    border: 1px solid var(--azul-pastel);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.beneficio:hover {
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    transform: translateY(-10px) scale(1.03);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 1rem;
+}
+
+.texto-beneficio {
+    max-width: 250px;
+    height: 300px;
+    background: rgba(0, 102, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 0 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-beneficio {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.paragrafo-beneficio {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    opacity: 80%;
 }
